@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Arvydas Jonusonis",
+    "label": "Data Engineer",
+    "picture": "",
+    "email": "arvydas@jonusonis.com",
+    "phone": "+1.310.347.0661",
+    "summary": "Independent, experienced backend/big-data Software Engineer and Cassandra specialist. Maintained large-scale (100+ nodes, 100k txs/sec) Cassandra deployments: automating and operationalizing the infrastrucuture, optimizing costs, while advising organization on Cassandra best practices. Led software projects from concept to market.",
+    "location": {
+      "address": "10520 Valparaiso St",
+      "postalCode": "CA 90034",
+      "city": "Los Angeles",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "arvydasj",
+      "url": "https://www.linkedin.com/in/arvydasj/"
+    }]
+  },
+  "work": [{
+    "company": "Teads",
+    "position": "Sr Software Engineer (Data Engineering)",
+    "website": "http://teads.tv",
+    "startDate": "2016-01-12",
+    "endDate": "2017-11-24",
+    "summary": "#1 Video advertising marketplace",
+    "highlights": [
+      "Led effort to segregate unsimilar workloads into separate clusters to improve reliability and reduce infrastructure costs",
+      "Led migration of analytics Cassandra data from AWS to physical DC",
+      "Led migration of datamarts to Redshift",
+      "Led evaluation and integration of Airbnb's Airflow into the stack",
+      "Developed maintenance tools (Spark jobs) for migrating and purging stale data",
+      "Helped automate Cassandra infrastrucure (using Chef)",
+      "Helped integrate Datadog as de facto Cassandra monitoring solution",
+      "Performed adhoc analysis of Cassandra data (using Spark)",
+      "Involved in refactor of the lamdba stack into a micro-batch-based kappa flow powered by BigQuery"
+    ]
+  },
+  {
+    "company": "textPlus, Inc.",
+    "position": "Sr Software Engineer (Platform Team)",
+    "website": "http://textplus.com",
+    "startDate": "2015-03-15",
+    "endDate": "2016-01-08",
+    "summary": "A Top 10 communication app",
+    "highlights": [
+      "Implemented turn-key metrics solution for micro-services",
+      "Implemented Cassandra support libraries",
+      "Led a Cassandra optimization/enhancement project, which involved refactoring existing code, automating repairs, changing compaction strategies, migrating data to a new cluster, upgrade",
+      "Contributed to big data team’s implementation of lambda architecture by refactoring event stream ingestion API to integrate with kafka"
+    ]
+  },
+  {
+    "company": "Reachlocal",
+    "position": "Software Engineer - Dev Lead",
+    "website": "http://reachlocal.com",
+    "startDate": "2010-05-15",
+    "endDate": "2015-03-15",
+    "summary": "A digital marketing platform for SMBs",
+    "highlights": [
+      "Puppetized ActiveMQ deployments",
+      "Developed health-check library (Java & Grails plugin) for use in all ReachLocal web/micro-services",
+      "Led and executed upgrade of Cassandra (DSE) cluster (2.2.1 > 3.0.9)",
+      "Led development of a unified, global call tracking system (CTS), integrated with Twilio telephony platform",
+      "Led POC of Solr as an indexing mechanism for Cassandra data",
+      "Led major refactoring of secondary indexes and other Cassandra data to make more scaleable and enable a crucial upgrade",
+      "Led Cassandra upgrade (0.6x to 0.8)",
+      "Led implementation of company-wide, global notification system (e-mail and push notifications)",
+      "Led design and development of a distributed enterprise event-driven system (leveraging Cassandra and ActiveMQ)"
+    ]
+  }],
+  "education": [{
+    "institution": "University of Toronto",
+    "area": "Computer Engineering",
+    "studyType": "Bachelor of Applied Science (Engineering)",
+    "startDate": "2000-09-01",
+    "endDate": "2004-04-27"
+  }],
+  "awards": [{
+    "title": "Award of Excellence",
+    "date": "2013-12-01",
+    "awarder": "Reachlocal",
+    "summary": "High achievement award."
+  },{
+    "title": "Founders Circle",
+    "date": "2011-02-03",
+    "awarder": "Reachlocal",
+    "summary": "Engineering dept recipient of top performance award and trip to Bahamas."
+  }
+  
+],
+  "skills": [
+    {
+      "name": "NoSQL/Big Data",
+      "keywords": ["Cassandra", "Redis", "Redshift", "BigQuery", "Spark"]
+    },
+    {
+      "name": "Spring",
+      "level": "6",
+      "keywords": ["springframework", "aop", "spring-integration", "mvc"]
+    },
+    {
+      "name": "Relational Databases",
+      "level": "7",
+      "keywords": ["MySQL","Postgres"]
+    },
+    {
+      "name": "EIP",
+      "level": "5",
+      "keywords": ["springintegration", "camel"]
+    },
+    {
+    "name": "Polyglot",
+    "keywords": ["Scala", "Java", "Groovy", "Python", "Ruby"]
+  },
+  {
+    "name": "Messaging",
+    "keywords": ["ActiveMQ", "RabbitMQ", "Kafka"]
+  },
+  {
+    "name": "Monitoring",
+    "keywords": ["DataDog", "Grafana", "Graphite", "Kibana", "Splunk"]
+  },
+  {
+    "name": "Cloud",
+    "keywords": ["AWS", "GCP", "OpenStack"]
+  },
+  {
+    "name": "Configuration Management / Containerization",
+    "keywords": ["Docker", "Chef", "Puppet"]
+  },
+  {
+  "name": "Agile Methodologies",
+  "keywords": ["SCRUM", "Kanban"]
+}
+  
+  
+],
+  "languages": [{
+    "name": "English",
+    "level": "Fluent"
+  },
+  {
+    "name": "Lithuanian",
+    "level": "Fluent"
+  },
+  {
+    "name": "French",
+    "level": "Advanced spoken, intermediate writing"
+  },
+  {
+    "name": "Polish",
+    "level": "Conversational"
+  }
+],
+  "references": [{
+    "name": "available upon request"
+  }]
+}
