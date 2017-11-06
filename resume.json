@@ -19,6 +19,54 @@
       "url": "https://www.linkedin.com/in/arvydasj/"
     }]
   },
+    "skills": [
+      {
+        "name": "NoSQL/Big Data",
+        "keywords": ["Cassandra", "Redis", "Redshift", "BigQuery", "Spark"]
+      },
+      {
+        "name": "Spring",
+        "level": "6",
+        "keywords": ["springframework", "aop", "spring-integration", "mvc"]
+      },
+      {
+        "name": "Relational Databases",
+        "level": "7",
+        "keywords": ["MySQL","Postgres"]
+      },
+      {
+        "name": "EIP",
+        "level": "5",
+        "keywords": ["springintegration", "camel"]
+      },
+      {
+      "name": "Polyglot",
+      "keywords": ["Scala", "Java", "Groovy", "Python", "Ruby"]
+    },
+    {
+      "name": "Messaging",
+      "keywords": ["ActiveMQ", "RabbitMQ", "Kafka"]
+    },
+    {
+      "name": "Monitoring",
+      "keywords": ["DataDog", "Grafana", "Graphite", "Kibana", "Splunk"]
+    },
+    {
+      "name": "Cloud",
+      "keywords": ["AWS", "GCP", "OpenStack"]
+    },
+    {
+      "name": "Configuration Management / Containerization",
+      "keywords": ["Docker", "Chef", "Puppet"]
+    },
+    {
+    "name": "Agile Methodologies",
+    "keywords": ["SCRUM", "Kanban"]
+  }
+
+    
+    
+],
   "work": [{
     "company": "Teads",
     "position": "Sr Software Engineer (Data Engineering)",
@@ -71,13 +119,7 @@
       "Led design and development of a distributed enterprise event-driven system (leveraging Cassandra and ActiveMQ)"
     ]
   }],
-  "education": [{
-    "institution": "University of Toronto",
-    "area": "Computer Engineering",
-    "studyType": "Bachelor of Applied Science (Engineering)",
-    "startDate": "2000-09-01",
-    "endDate": "2004-04-27"
-  }],
+  
   "awards": [{
     "title": "Award of Excellence",
     "date": "2013-12-01",
@@ -91,71 +133,11 @@
   }
   
 ],
-  "skills": [
-    {
-      "name": "NoSQL/Big Data",
-      "keywords": ["Cassandra", "Redis", "Redshift", "BigQuery", "Spark"]
-    },
-    {
-      "name": "Spring",
-      "level": "6",
-      "keywords": ["springframework", "aop", "spring-integration", "mvc"]
-    },
-    {
-      "name": "Relational Databases",
-      "level": "7",
-      "keywords": ["MySQL","Postgres"]
-    },
-    {
-      "name": "EIP",
-      "level": "5",
-      "keywords": ["springintegration", "camel"]
-    },
-    {
-    "name": "Polyglot",
-    "keywords": ["Scala", "Java", "Groovy", "Python", "Ruby"]
-  },
-  {
-    "name": "Messaging",
-    "keywords": ["ActiveMQ", "RabbitMQ", "Kafka"]
-  },
-  {
-    "name": "Monitoring",
-    "keywords": ["DataDog", "Grafana", "Graphite", "Kibana", "Splunk"]
-  },
-  {
-    "name": "Cloud",
-    "keywords": ["AWS", "GCP", "OpenStack"]
-  },
-  {
-    "name": "Configuration Management / Containerization",
-    "keywords": ["Docker", "Chef", "Puppet"]
-  },
-  {
-  "name": "Agile Methodologies",
-  "keywords": ["SCRUM", "Kanban"]
-}
-  
-  
-],
-  "languages": [{
-    "name": "English",
-    "level": "Fluent"
-  },
-  {
-    "name": "Lithuanian",
-    "level": "Fluent"
-  },
-  {
-    "name": "French",
-    "level": "Advanced spoken, intermediate writing"
-  },
-  {
-    "name": "Polish",
-    "level": "Conversational"
-  }
-],
-  "references": [{
-    "name": "available upon request"
-  }]
+"education": [{
+  "institution": "University of Toronto",
+  "area": "Computer Engineering",
+  "studyType": "Bachelor of Applied Science (Engineering)",
+  "startDate": "2000-09-01",
+  "endDate": "2004-04-27"
+}]
 }
