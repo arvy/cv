@@ -83,15 +83,16 @@
     "endDate": "2017-11-24",
     "summary": "#1 Video advertising marketplace",
     "highlights": [
-      "Led effort to segregate unsimilar workloads into separate clusters to improve reliability and reduce infrastructure costs",
+      "Led effort to segregate unsimilar Cassandra workloads into separate clusters to improve reliability and reduce infrastructure costs",
       "Led migration of analytics Cassandra data from AWS to physical DC",
       "Led migration of datamarts to Redshift",
       "Led evaluation and integration of Airbnb's Airflow into the stack",
       "Developed maintenance tools (Spark jobs) for migrating and purging stale data",
-      "Helped automate Cassandra infrastrucure (using Chef)",
-      "Helped integrate Datadog as de facto Cassandra monitoring solution",
+      "Developed Mysql to Redshift synchronization tool powered by Amazon DMS",
+      "Contributed to automating Cassandra infrastrucure (using Chef)",
+      "Contributed to integrate Datadog as de facto Cassandra monitoring solution",
       "Performed adhoc analysis of Cassandra data (using Spark)",
-      "Involved in refactor of the lamdba stack into a micro-batch-based kappa flow powered by BigQuery"
+      "Contributed refactor of the lamdba stack into a micro-batch-based kappa flow powered by BigQuery"
     ]
   },
   {
