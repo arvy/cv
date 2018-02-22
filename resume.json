@@ -24,7 +24,7 @@
       "username": "Doc format",
       "url":"https://docs.google.com/document/d/1u0AgOuXDnWjfChTLvowubO6WigRe3k7mDoJYGbYWBLE/edit?usp=sharing"
     }
-    
+
   ]
   },
     "skills": [
@@ -65,15 +65,15 @@
     },
     {
       "name": "Configuration Management / Containerization",
-      "keywords": ["Docker", "Chef", "Puppet"]
+      "keywords": ["Docker", "Crane", "Kubernetes", "Chef", "Puppet"]
     },
     {
     "name": "Agile Methodologies",
     "keywords": ["SCRUM", "Kanban"]
   }
 
-    
-    
+
+
 ],
   "work": [{
     "company": "Teads",
@@ -128,7 +128,7 @@
       "Led design and development of a distributed enterprise event-driven system (leveraging Cassandra and ActiveMQ)"
     ]
   }],
-  
+
   "awards": [{
     "title": "Award of Excellence",
     "date": "2013-12-01",
@@ -140,7 +140,7 @@
     "awarder": "Reachlocal",
     "summary": "Engineering dept recipient of top performance award and trip to Bahamas."
   }
-  
+
 ],
 "education": [{
   "institution": "University of Toronto",
