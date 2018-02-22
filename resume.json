@@ -76,8 +76,17 @@
 
 ],
   "work": [{
+    "company": "textPlus, Inc.",
+    "position": "Cassandra Consultant",
+    "website": "http://textplus.com",
+    "startDate": "2018-03-01",
+    "endDate": "",
+    "summary": "Telephony platform",
+    "highlights": []
+  },
+  {
     "company": "Teads",
-    "position": "Sr Software Engineer (Data Engineering)",
+    "position": "Cassandra Architect & Data Analytics Developer",
     "website": "http://teads.tv",
     "startDate": "2016-01-12",
     "endDate": "2017-11-24",
