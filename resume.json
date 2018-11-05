@@ -76,6 +76,15 @@
 
 ],
   "work": [{
+    "company": "Datastax",
+    "position": "Premium Support Engineer",
+    "website": "http://textplus.com",
+    "startDate": "2018-04-30",
+    "endDate": "current",
+    "summary": "Data Management Platform and Solutions built on Apache Cassandra",
+    "highlights": []
+  },
+  {
     "company": "textPlus, Inc.",
     "position": "Cassandra Consultant",
     "website": "http://textplus.com",
