@@ -1,14 +1,12 @@
 {
   "basics": {
     "name": "Arvydas Jonusonis",
-    "label": "Data Engineer",
-    "picture": "",
+    "label": "Software Engineer, Solutions Architect & Technical Leader",
+    "picture": "https://media.licdn.com/dms/image/C4D03AQFf6NhVhT2VtQ/profile-displayphoto-shrink_800_800/0/1516229884195?e=1707350400&v=beta&t=AvYWY1_waN7ZA9NpmFY7B86XCeF7bGVwrnOpoNtB-Xk",
     "email": "arvydas@jonusonis.com",
-    "phone": "+1.310.906.0278",
-    "summary": "Independent, experienced backend/big-data Software Engineer and Cassandra specialist. Maintained large-scale (100+ nodes, 100k txs/sec) Cassandra deployments: automating and operationalizing the infrastrucuture, optimizing costs, while advising organization on Cassandra best practices. Led software projects from concept to market.",
+    "phone": "+1.424.387.7550",
+    "summary": "I am a hands-on software architect who enjoys collaborating, leading cross-functional teams and interfacing with customers. I am passionate about delivering robust, highly-operationalized software solutions, while fostering a culture of continuous improvement and innovation. My breadth of experience, ranging from full lifecycle software development, data engineering, operations and customer support, allow me to evaluate requirements through a wide lens.",
     "location": {
-      "address": "10520 Valparaiso St",
-      "postalCode": "CA 90034",
       "city": "Los Angeles",
       "countryCode": "US",
       "region": "California"
@@ -18,11 +16,6 @@
       "network": "LinkedIn",
       "username": "arvydasj",
       "url": "https://www.linkedin.com/in/arvydasj/"
-    },
-    {
-      "network": "Google",
-      "username": "Doc format",
-      "url":"https://docs.google.com/document/d/1u0AgOuXDnWjfChTLvowubO6WigRe3k7mDoJYGbYWBLE/edit?usp=sharing"
     }
 
   ]
@@ -30,42 +23,35 @@
     "skills": [
       {
         "name": "NoSQL/Big Data",
-        "keywords": ["Cassandra", "Redis", "Redshift", "BigQuery", "Spark"]
+        "keywords": ["Cassandra", "DSE", "Redis", "Redshift", "BigQuery", "Spark"]
       },
       {
-        "name": "Spring",
-        "level": "6",
-        "keywords": ["springframework", "aop", "spring-integration", "mvc"]
+        "name": "Spring Framework",
+        "keywords": []
       },
       {
-        "name": "Relational Databases",
-        "level": "7",
-        "keywords": ["MySQL","Postgres"]
-      },
-      {
-        "name": "EIP",
-        "level": "5",
-        "keywords": ["springintegration", "camel"]
-      },
-      {
-      "name": "Polyglot",
+      "name": "Software Development",
       "keywords": ["Scala", "Java", "Groovy", "Python", "Ruby"]
     },
     {
-      "name": "Messaging",
-      "keywords": ["ActiveMQ", "RabbitMQ", "Kafka"]
+      "name": "Messaging/Streaming",
+      "keywords": ["ActiveMQ", "RabbitMQ", "Pulsar", "Kafka", "Spark Streaming"]
     },
     {
       "name": "Monitoring",
-      "keywords": ["DataDog", "Grafana", "Graphite", "Kibana", "Splunk"]
+      "keywords": ["DataDog", "Grafana", "Prometheus"]
     },
     {
       "name": "Cloud",
-      "keywords": ["AWS", "GCP", "OpenStack"]
+      "keywords": ["AWS", "GCP"]
     },
     {
-      "name": "Configuration Management / Containerization",
-      "keywords": ["Docker", "Crane", "Kubernetes", "Chef", "Puppet"]
+      "name": "Configuration Management",
+      "keywords": ["Chef", "Puppet", "Ansible"]
+    },
+    {
+      "name": "Containerization / Orchestration",
+      "keywords": ["Docker", "Crane", "Kubernetes"]
     },
     {
     "name": "Agile Methodologies",
@@ -77,12 +63,22 @@
 ],
   "work": [{
     "company": "Datastax",
-    "position": "Premium Support Engineer",
-    "website": "http://textplus.com",
+    "position": "Senior Engineering Consultant",
+    "website": "http://datastax.com",
     "startDate": "2018-04-30",
-    "endDate": "current",
+    "endDate": "",
     "summary": "Data Management Platform and Solutions built on Apache Cassandra",
-    "highlights": []
+    "highlights": [
+      "Consult with customer application teams on data model design and database integration",
+      "Assist customer with capacity planning",
+      "Advocate for customer feature/hotfix requests",
+      "Educate customer on product features and best practices",
+      "Operational planning (planning, validation, execution of upgrades, feature rollouts, maintenance activities)",
+      "Perform Root Cause Analyses",
+      "Develop tools and scripts for customers to address gaps in product features",
+      "Guide and assist customer with database peformance testing",
+      "Database performance tuning"
+    ]
   },
   {
     "company": "textPlus, Inc.",
@@ -91,26 +87,29 @@
     "startDate": "2018-02-05",
     "endDate": "2018-04-27",
     "summary": "Telephony platform",
-    "highlights": []
+    "highlights": [
+      "Implemented collection of and configured Grafana dashboards for Cassandra metrics",
+      "Migrated Cassandra configuration from Chef to Ansible"
+    ]
   },
   {
     "company": "Teads",
-    "position": "Cassandra Architect & Data Analytics Developer",
+    "position": "Cassandra Architect / Data Engineer / Engineering Enablement",
     "website": "http://teads.tv",
     "startDate": "2016-01-12",
     "endDate": "2017-11-24",
     "summary": "#1 Video advertising marketplace",
     "highlights": [
       "Led effort to segregate unsimilar Cassandra workloads into separate clusters to improve reliability and reduce infrastructure costs",
-      "Led migration of analytics Cassandra data from AWS to physical DC",
-      "Led migration of datamarts to Redshift",
-      "Led evaluation and integration of Airbnb's Airflow into the stack",
+      "Migrated analytics Cassandra data from AWS to on-prem cluster using Spark Cassandra Connector",
+      "Migrated datamarts to Redshift",
+      "Evaluated and integrated Airflow into the stack",
       "Developed maintenance tools (Spark jobs) for migrating and purging stale data",
       "Developed Mysql to Redshift synchronization tool powered by Amazon DMS",
       "Contributed to automating Cassandra infrastrucure (using Chef)",
       "Contributed to integrate Datadog as de facto Cassandra monitoring solution",
       "Performed adhoc analysis of Cassandra data (using Spark)",
-      "Contributed refactor of the lamdba stack into a micro-batch-based kappa flow powered by BigQuery"
+      "Contributed to the refactor of the lamdba stack into a micro-batch-based kappa flow powered by BigQuery"
     ]
   },
   {
@@ -143,28 +142,26 @@
       "Led major refactoring of secondary indexes and other Cassandra data to make more scaleable and enable a crucial upgrade",
       "Led Cassandra upgrade (0.6x to 0.8)",
       "Led implementation of company-wide, global notification system (e-mail and push notifications)",
-      "Led design and development of a distributed enterprise event-driven system (leveraging Cassandra and ActiveMQ)"
+      "Designed and implemented a distributed enterprise event-driven system (leveraging Cassandra and ActiveMQ)"
     ]
   }],
-
-  "awards": [{
-    "title": "Award of Excellence",
-    "date": "2013-12-01",
-    "awarder": "Reachlocal",
-    "summary": "High achievement award."
-  },{
-    "title": "Founders Circle",
-    "date": "2011-02-03",
-    "awarder": "Reachlocal",
-    "summary": "Engineering dept recipient of top performance award and trip to Bahamas."
-  }
-
-],
 "education": [{
   "institution": "University of Toronto",
   "area": "Computer Engineering",
   "studyType": "Bachelor of Applied Science (Engineering)",
-  "startDate": "2000-09-01",
-  "endDate": "2004-04-27"
-}]
+  "startDate": "2000",
+  "endDate": "2004"
+}],
+"certificates": [
+  {
+    "name": "Private Pilot",
+    "date": "2020-12-01",
+    "issuer": "FAA"
+  },
+  {
+    "name": "Remote Pilot",
+    "date": "2022-11-01",
+    "issuer": "FAA"
+  }
+]
 }
